@@ -1,0 +1,46 @@
+{
+  "filter_rules": {
+    "min_sales": 500,
+    "max_items_per_source": 30
+  },
+  "browser": {
+    "use_adspower_cdp": true,
+    "cdp_endpoint": "http://127.0.0.1:65209",
+    "headless": false
+  },
+  "storage": {
+    "output_dir": "materials/ecommerce_products",
+    "download_images": true,
+    "download_videos": true
+  },
+  "schedule": {
+    "jitter_seconds_min": 3,
+    "jitter_seconds_max": 6
+  },
+  "sources": [
+    {
+      "name": "国内_拼多多_热销榜女装毛衫",
+      "url": "https://mobile.yangkeduo.com/goods.html?goods_id=xxxx"
+    },
+    {
+      "name": "国内_淘宝_秋冬保暖爆款",
+      "url": "https://item.taobao.com/item.htm?id=xxxx"
+    },
+    {
+      "name": "国内_抖音电商_精选联盟带货爆品",
+      "url": "https://haohuo.jinritemai.com/views/product/item2?id=xxxx"
+    },
+    {
+      "name": "海外_TikTok_Shop_美区热卖榜商品",
+      "url": "https://shop.tiktok.com/view/product/xxxx"
+    },
+    {
+      "name": "海外_Amazon_服饰畅销榜_BestSellers",
+      "url": "https://www.amazon.com/Best-Sellers-Clothing-Shoes-Jewelry/zgbs/fashion/"
+    },
+    {
+      "name": "海外_Temu_大盘热销爆款专区",
+      "url": "https://www.temu.com/bestsellers.html"
+    }
+  ]
+}

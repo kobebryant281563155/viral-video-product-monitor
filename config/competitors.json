@@ -1,0 +1,42 @@
+{
+  "filter_rules": {
+    "min_likes": 10000,
+    "min_views": 50000,
+    "max_age_days": 30,
+    "ignore_pinned": true,
+    "max_videos_per_creator": 15
+  },
+  "browser": {
+    "use_adspower_cdp": true,
+    "cdp_endpoint": "http://127.0.0.1:65209",
+    "adspower_api_url": "http://local.adspower.net:50325",
+    "headless": false
+  },
+  "storage": {
+    "download_dir": "materials/viral_competitors",
+    "save_metadata_json": true
+  },
+  "schedule": {
+    "interval_hours": 4,
+    "jitter_seconds_min": 4,
+    "jitter_seconds_max": 8
+  },
+  "creators": [
+    {
+      "name": "国内_抖音_重磅毛衫同行",
+      "url": "https://www.douyin.com/user/MS4wLjABAAAAxxxx"
+    },
+    {
+      "name": "国内_小红书_穿搭买手同行",
+      "url": "https://www.xiaohongshu.com/user/profile/xxxx"
+    },
+    {
+      "name": "海外_TikTok_官方爆款账号",
+      "url": "https://www.tiktok.com/@tiktok"
+    },
+    {
+      "name": "海外_Instagram_时尚潮牌",
+      "url": "https://www.instagram.com/zara/"
+    }
+  ]
+}

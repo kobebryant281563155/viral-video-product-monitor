@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+materials/
+output/
+downloads/
+data/*.sqlite
+data/*.db
+data/videos/
+data/cache/
+.vscode/
+.idea/
